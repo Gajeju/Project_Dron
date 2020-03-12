@@ -16,6 +16,7 @@ void setup() {
   init_motor_speed(THROTTLE_INI);
 }
 
+
 void loop() {
   // put your main code here, to run repeatedly:
   float roll_angle, pitch_angle, yaw_angle;
