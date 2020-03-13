@@ -15,6 +15,7 @@ void setup() {
   init_motor_speed(THROTTLE_INI);
 }
 
+
 void loop() {
   float roll_angle, pitch_angle, yaw_angle;
   Sensor.read_rpy_angle(roll_angle, pitch_angle, yaw_angle);
